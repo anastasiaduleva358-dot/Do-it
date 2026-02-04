@@ -1,0 +1,11 @@
+let i = 1;
+for ( ; i <= 5; i++) {
+   if (i % 2 == 0){
+    console.log (i+1);
+    continue;
+   }
+   
+    console.log (i-1);
+
+   
+}
